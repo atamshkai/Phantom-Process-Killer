@@ -18,6 +18,8 @@ adb shell "/system/bin/device_config put activity_manager max_phantom_processes 
 ```
 adb shell settings put global settings_enable_monitor_phantom_procs false
 ```
+```
+- Reboot Phone:
 
 #### Deactivation Instructions (ROOT):
 - On Termux (or any Terminal Emulator), paste the following commands on the following order:
@@ -30,6 +32,10 @@ su -c /system/bin/device_config put activity_manager max_phantom_processes 21474
 ```
 su -c setprop persist.sys.fflag.override.settings_enable_monitor_phantom_procs false
 ```
+```
+su -c reboot
+```
+
 
 #### Experimental Method (MAGISK)
 
