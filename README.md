@@ -7,6 +7,11 @@
 **Termux may be unstable on Android 12+.** Android OS will kill any (phantom) processes greater than 32 (limit is for all apps combined) and also kill any processes using excessive CPU. You may get `[Process completed (signal 9) - press Enter]` message in the terminal without actually exiting the shell process yourself. Check the related issue [#2366](https://github.com/termux/termux-app/issues/2366), [issue tracker](https://issuetracker.google.com/u/1/issues/205156966), [gist with details](https://gist.github.com/agnostic-apollo/dc7e47991c512755ff26bd2d31e72ca8) and [this TLDR comment](https://github.com/termux/termux-app/issues/2366#issuecomment-1009269410) on how to disable trimming of phantom processes.
 
 #### Deactivation Instructions (ADB):
+
+### Split Termux & Settings On Phone
+
+![](https://raw.githubusercontent.com/atamshkai/Ubuntu-18.04-KDE-Desktop-for-termux/main/Screenshot_2023-06-16-20-31-30-533_com.termux.x11.jpg)
+
 - On an ADB console, paste the following commands on the following order:
 ```
 adb shell "/system/bin/device_config set_sync_disabled_for_tests persistent"
