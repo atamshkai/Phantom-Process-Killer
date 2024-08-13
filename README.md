@@ -22,7 +22,9 @@ adb shell settings put global settings_enable_monitor_phantom_procs false
 ## Reboot Phone
 
 #### Deactivation Instructions (ROOT):
+
 - On Termux (or any Terminal Emulator), paste the following commands on the following order:
+
 ```
 su -c /system/bin/device_config set_sync_disabled_for_tests persistent
 ```
