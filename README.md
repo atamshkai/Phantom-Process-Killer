@@ -9,6 +9,7 @@
 #### Deactivation Instructions (ADB):
 
 - On an ADB console, paste the following commands on the following order:
+
 ```
 adb shell "/system/bin/device_config set_sync_disabled_for_tests persistent"
 ```
@@ -18,7 +19,7 @@ adb shell "/system/bin/device_config put activity_manager max_phantom_processes 
 ```
 adb shell settings put global settings_enable_monitor_phantom_procs false
 ```
-```
+
 ## Reboot Phone
 
 #### Deactivation Instructions (ROOT):
