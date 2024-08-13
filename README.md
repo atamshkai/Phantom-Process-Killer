@@ -26,7 +26,9 @@ su -c /system/bin/device_config set_sync_disabled_for_tests persistent
 ```
 ```
 su -c /system/bin/device_config put activity_manager max_phantom_processes 2147483647
- setprop persist.sys.fflag.override.settings_enable_monitor_phantom_procs false
+```
+```
+su -c setprop persist.sys.fflag.override.settings_enable_monitor_phantom_procs false
 ```
 
 #### Experimental Method (MAGISK)
