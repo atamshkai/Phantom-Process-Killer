@@ -45,7 +45,7 @@ su -c reboot
 
 https://raw.githubusercontent.com/HardcodedCat/termux-monet/master/ppr/PhantomProcessRetainer-main.zip
 
-- After that, `PhantomProcessKiller might be deactivated on every device boot.
+- After that, `PhantomProcessKiller' might be deactivated on every device boot.
 
 #### Check if PhantomProcessKiller was Disabled (ROOT):
 ```
