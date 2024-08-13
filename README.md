@@ -8,10 +8,6 @@
 
 #### Deactivation Instructions (ADB):
 
-### Split Termux & Settings On Phone
-
-![](https://raw.githubusercontent.com/atamshkai/Ubuntu-18.04-KDE-Desktop-for-termux/main/Screenshot_2023-06-16-20-31-30-533_com.termux.x11.jpg)
-
 - On an ADB console, paste the following commands on the following order:
 ```
 adb shell "/system/bin/device_config set_sync_disabled_for_tests persistent"
