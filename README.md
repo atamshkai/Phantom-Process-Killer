@@ -19,7 +19,10 @@ adb shell "/system/bin/device_config put activity_manager max_phantom_processes 
 ```
 adb shell settings put global settings_enable_monitor_phantom_procs false
 ```
-###### Reboot Phone
+#### Reboot Phone
+```
+adb reboot bootloader
+```
 
 #### Deactivation Instructions (ROOT):
 
