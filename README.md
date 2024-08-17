@@ -46,7 +46,7 @@ su -c reboot
 
 - On a Rooted phone with Magisk installed, flash the following module:
 
-[Download](https://github.com/atamshkai/Phantom-Process-Killer/blob/main/PhantomProcessRetainer-main.zip) 
+[Download](https://github.com/atamshkai/Phantom-Process-Killer/raw/main/PhantomProcessRetainer-main.zip) 
 
 - After that, `PhantomProcessKiller' might be deactivated on every device boot.
 
