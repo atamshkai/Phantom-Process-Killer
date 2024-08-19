@@ -65,3 +65,9 @@ su -c getprop persist.sys.fflag.override.settings_enable_monitor_phantom_procs
 - It should return "false"
 
 ***
+
+### To Wait
+
+After restarting , your phone may be hot for a while.
+
+Wait it to normal state.
