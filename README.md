@@ -71,3 +71,7 @@ su -c getprop persist.sys.fflag.override.settings_enable_monitor_phantom_procs
 After restarting , your phone may be hot for a while.
 
 Wait it to normal state.
+
+### Stop Auto Lauch Applications
+
+  [Telegram Link](https://t.me/c/1731442555/346) 
