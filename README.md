@@ -25,11 +25,11 @@ adb shell settings put global settings_enable_monitor_phantom_procs false
 ```
 adb reboot
 ```
-#### You Can Also Deative It With Termux
+#### You Can Also Deative It With Termux.
 ```
 pkg up -y;pkg i -y android-tools
 ```
-- After installing the package,you must open Developer Options in order to use wireless ADB with Termux
+- After installing the package,you must open Developer Options in order to use wireless ADB with Termux.
 
 - Go to Settings, About Phone & Touch build-number for servial times.
 
