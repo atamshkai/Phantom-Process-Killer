@@ -37,7 +37,7 @@ pkg up -y;pkg i -y android-tools
 
 - After Opening Developer Options,Open wireless debugging & Split Screen.
 
-- Then,Open Termux & Pair Device with paring code.(It doesn't work On Android 14,so use Computer Or Some Tools like ADB Tools)
+- Then,Open Termux & Pair Device with paring code.(It doesn't work On Android 14,so use Computer Or use Some Tools like ADB Tools)
 
 - Write This ADB Command in termux
 
