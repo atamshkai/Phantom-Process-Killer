@@ -47,7 +47,7 @@ adb connect 192.168.100.2:41538
 ```
 ## Example
 
-![](https://raw.githubusercontent.com/atamshkai/Phantom-Process-Killer/main/Example.png)
+![](https://raw.githubusercontent.com/atamshkai/Phantom-Process-Killer/blob/main/Example.png)
 
 #### Deactivation Instructions (ROOT):
 
