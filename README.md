@@ -45,6 +45,10 @@ pkg up -y;pkg i -y android-tools
 ```
 adb connect 192.168.100.2:41538
 ```
+## Example
+
+![](https://raw.githubusercontent.com/atamshkai/Phantom-Process-Killer/main/Example.png)
+
 #### Deactivation Instructions (ROOT):
 
 - On Termux (or any Terminal Emulator), paste the following commands on the following order:
