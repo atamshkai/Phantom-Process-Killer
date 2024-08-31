@@ -19,11 +19,32 @@ adb shell "/system/bin/device_config put activity_manager max_phantom_processes 
 ```
 adb shell settings put global settings_enable_monitor_phantom_procs false
 ```
+- If it doesn't work on your phone,Reboot your phone
+
 #### Reboot Phone
 ```
-adb reboot bootloader
+adb reboot
 ```
+#### You Can Deative with Termux
+```
+pkg up -y;pkg i -y android-tools
+```
+- After installing the package,you must open Developer Options in order to use wireless ADB with Termux
 
+- Go to Settings, About Phone & Touch build-number for servial times.
+
+- On Xiaomi Phones, Touch MIUI version servial times.
+
+- After Opening Developer Options,Open wireless debugging & Split Screen.
+
+- Then,Open Termux & Pair Device with paring code.(It doesn't work On Android 14,so use Computer Or Some Tools like ADB Tools)
+
+- Write This ADB Command in termux
+
+#### This is Example,use your host
+```
+adb connect 192.168.100.2:41538
+```
 #### Deactivation Instructions (ROOT):
 
 - On Termux (or any Terminal Emulator), paste the following commands on the following order:
@@ -37,10 +58,12 @@ su -c /system/bin/device_config put activity_manager max_phantom_processes 21474
 ```
 su -c setprop persist.sys.fflag.override.settings_enable_monitor_phantom_procs false
 ```
+
+- If it doesn't work on your phone,reboot your phone.
+
 ```
 su -c reboot
 ```
-
 
 #### Experimental Method (MAGISK)
 
