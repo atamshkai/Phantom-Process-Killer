@@ -43,11 +43,11 @@ pkg up -y;pkg i -y android-tools
 
 - Write This ADB Command in termux
 
-#### This is Example,pair your host
+#### This is Example,pair your host port
 ```
 adb pair 192.168.1.3:41538
 ```
-#### Choose 3rd Line's port.[Not Paired Port]
+#### Choose 3rd Line's host port.[Not Paired Host Port]
 
 ```
 adb connect 192.168.1.3:41115
