@@ -25,7 +25,7 @@ adb shell settings put global settings_enable_monitor_phantom_procs false
 ```
 adb reboot
 ```
-#### You Can Also Deative It With Termux.
+## You Can Also Deative It With Termux.
 ```
 pkg up -y;pkg i -y android-tools
 ```
