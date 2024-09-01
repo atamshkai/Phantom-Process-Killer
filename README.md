@@ -47,7 +47,7 @@ pkg up -y;pkg i -y android-tools
 ```
 adb pair 192.168.1.3:41538
 ```
-#### Choose 3rd Line's port.[Not Pair Host]
+#### Choose 3rd Line's port.[Not Paired Port]
 
 ```
 adb connect 192.168.1.3:41115
