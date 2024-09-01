@@ -56,7 +56,7 @@ adb connect 192.168.1.3:41115
 
 ![](https://raw.githubusercontent.com/atamshkai/Phantom-Process-Killer/main/Example.jpg)
 
-![](https://raw.githubusercontent.com/atamshkai/Phantom-Process-Killer/main/Example-2.jpg)
+![](https://raw.githubusercontent.com/atamshkai/Phantom-Process-Killer/main/Example2.jpg)
 
 #### Deactivation Instructions (ROOT):
 
