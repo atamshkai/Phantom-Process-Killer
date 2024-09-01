@@ -43,16 +43,20 @@ pkg up -y;pkg i -y android-tools
 
 - Write This ADB Command in termux
 
-#### This is Example,use your host
+#### This is Example,pair your host
 ```
-adb pair 192.168.100.2:41538
+adb pair 192.168.1.3:41538
 ```
+#### Choose 3rd Line's port.[Not Pair Host]
+
 ```
-adb connect 192.168.100.2:41538
+adb connect 192.168.1.3:41115
 ```
 ## Example
 
 ![](https://raw.githubusercontent.com/atamshkai/Phantom-Process-Killer/main/Example.jpg)
+
+![](https://raw.githubusercontent.com/atamshkai/Phantom-Process-Killer/main/Example-2.jpg)
 
 #### Deactivation Instructions (ROOT):
 
