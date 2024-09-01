@@ -52,9 +52,11 @@ adb pair 192.168.1.3:41538
 ```
 adb connect 192.168.1.3:41115
 ```
-## Example
+## Example 1 
 
 ![](https://raw.githubusercontent.com/atamshkai/Phantom-Process-Killer/main/Example.jpg)
+
+## Example 2 
 
 ![](https://raw.githubusercontent.com/atamshkai/Phantom-Process-Killer/main/Example2.jpg)
 
