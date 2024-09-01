@@ -19,7 +19,7 @@ adb shell "/system/bin/device_config put activity_manager max_phantom_processes 
 ```
 adb shell settings put global settings_enable_monitor_phantom_procs false
 ```
-- If it doesn't work on your phone,Reboot your phone
+- If it doesn't work on your phone,Reboot your phone.
 
 #### Reboot Phone
 ```
@@ -39,11 +39,11 @@ pkg up -y;pkg i -y android-tools
 
 - Then,Open Termux & Pair Device with paring code.
 
-- You can also use two phones in a same wifi network.
+- You can also use two phones with a same wifi network.
 
 - Write This ADB Command in termux
 
-#### This is Example,pair your host port
+#### This is Example,Pair your host port
 ```
 adb pair 192.168.1.3:41538
 ```
