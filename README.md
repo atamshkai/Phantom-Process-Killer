@@ -37,11 +37,16 @@ pkg up -y;pkg i -y android-tools
 
 - After Opening Developer Options,Open wireless debugging & Split Screen.
 
-- Then,Open Termux & Pair Device with paring code.(It doesn't work On Android 14,so use Computer Or use Some Tools like ADB Tools)
+- Then,Open Termux & Pair Device with paring code.
+
+- You can also use two phones in a same wifi network.
 
 - Write This ADB Command in termux
 
 #### This is Example,use your host
+```
+adb pair 192.168.100.2:41538
+```
 ```
 adb connect 192.168.100.2:41538
 ```
