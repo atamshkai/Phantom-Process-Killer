@@ -114,4 +114,4 @@ su -c getprop persist.sys.fflag.override.settings_enable_monitor_phantom_procs
 
 ### Stop Auto Lauch Applications
 
-- [Telegram Link](https://play.google.com/store/apps/details?id=com.tafayor.killall) 
+- [Playstore Link](https://play.google.com/store/apps/details?id=com.tafayor.killall) 
